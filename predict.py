@@ -6,7 +6,7 @@ from matplotlib.pyplot import imread, imshow
 import matplotlib.pyplot as plt
 
 from keras import backend as K
-K.set_learning_phase(1)
+K.set_learning_phase(0)
 
 import cv2
 from tqdm import tqdm
