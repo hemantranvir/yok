@@ -1,7 +1,7 @@
 import argparse
 import json
 import numpy as np
-from lib.utils import *
+from yok.utils import *
 from matplotlib.pyplot import imread, imshow
 import matplotlib.pyplot as plt
 
@@ -11,7 +11,7 @@ K.set_learning_phase(1)
 import cv2
 from tqdm import tqdm
 
-from lib.models import ModelYolo
+from yok.models import ModelYolo
 
 def get_argparser():
     argparser = argparse.ArgumentParser(description="Load Yolov2/TinyYolov2 model and run detection",

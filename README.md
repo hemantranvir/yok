@@ -1,10 +1,12 @@
-# Yolov2 implementation using keras
+# YOK: Yolov2 On Keras
+
+## Features
 - Object detection in a image/video using yolov2 based on keras framework(tensorflow backend).
 - It includes training and inference.
 - Yolov2 and TinyYolov2 models can be trained.
 - It is tested using COCO dataset.
 
-# Requirements
+## Requirements
 * Keras
 * tensorflow-gpu or tensorflow
 * scipy
@@ -22,7 +24,7 @@ Note: Please take note for tensorflow gpu support, install the cuda driver, cuda
 from  this [link] (https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html) and the
 corresponding tensorflow-gpu version supported by refering to this [link](https://www.tensorflow.org/install/source#tested_build_configurations)
 
-# Inference/Prediction
+## Inference/Prediction
 - Please download the pre-trained models from this [link](https://drive.google.com/open?id=1fcqa1-mzvgKSADBtTdJGHxWVfDmWlDkO)
 - Alternatively one can re-train the model files as described in the Training section
 - Move the weights file under `h5_models/pre-trained`
@@ -33,7 +35,7 @@ corresponding tensorflow-gpu version supported by refering to this [link](https:
 - One can input an image file too using command `PYTHONPATH=lib:$PYTHONPATH CUDA_VISIBLE_DEVICES="" python3 predict.py -i images/person.jpg -o output_images/person.jpg`
 - Run `PYTHONPATH=lib:$PYTHONPATH python3 predict.py --help` to see script arguments and defaults.
 
-# Training
+## Training
 - For training, pre-trained weights files (h5 models) are used.
 - Please download the pre-trained models from this [link](https://drive.google.com/open?id=1fcqa1-mzvgKSADBtTdJGHxWVfDmWlDkO)
 - Move the weights file under `h5_models/pre-trained`

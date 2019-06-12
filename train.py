@@ -1,7 +1,7 @@
 import json
 import argparse
-from lib.models import ModelYolo
-from lib.preprocessing import parse_annotation, BatchGenerator
+from yok.models import ModelYolo
+from yok.preprocessing import parse_annotation, BatchGenerator
 from keras.optimizers import Adam
 import numpy as np
 import os
