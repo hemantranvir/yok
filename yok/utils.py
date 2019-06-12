@@ -202,7 +202,7 @@ def draw_boxes(image, out_scores, out_boxes, out_classes, class_names, colors, t
 
         print('Predicted class name: ', predicted_class)
 
-        if predicted_class == target_class:
+        if predicted_class in target_class:
             count = count + 1
             label = '{} {:.2f}'.format(predicted_class, score)
 
