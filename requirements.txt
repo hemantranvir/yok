@@ -1,0 +1,12 @@
+Keras
+tensorflow-gpu
+scipy
+matplotlib
+numpy
+tqdm
+opencv-python
+baker
+json
+cytoolz
+lxml
+pandas
