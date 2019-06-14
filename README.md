@@ -35,6 +35,9 @@ corresponding tensorflow-gpu version supported by refering to this [link](https:
 - One can input an image file too using command `PYTHONPATH=lib:$PYTHONPATH CUDA_VISIBLE_DEVICES="" python3 predict.py -i images/person.jpg -o output_images/person.jpg`
 - Run `PYTHONPATH=lib:$PYTHONPATH python3 predict.py --help` to see script arguments and defaults.
 
+### Output
+![Inference Output](meta/conference_detect.gif)
+
 ## Training
 - For training, pre-trained weights files (h5 models) are used.
 - Please download the pre-trained models from this [link](https://drive.google.com/open?id=1fcqa1-mzvgKSADBtTdJGHxWVfDmWlDkO)
