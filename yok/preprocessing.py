@@ -15,8 +15,8 @@ def parse_annotation(ann_dir, img_dir, labels=[]):
     seen_labels = {}
 
     for ann in sorted(os.listdir(ann_dir)):
-        if count > 2:
-            break
+        #if count > 2:
+        #    break
 
         img = {'object': []}
 
