@@ -8,17 +8,18 @@
 
 ## Requirements
 * Keras
-* tensorflow-gpu or tensorflow
+* tensorflow
 * scipy
 * matplotlib
 * numpy
 * tqdm
 * opencv-python
 * baker
-* json
 * cytoolz
 * lxml
 * pandas
+* pillow
+* imgaug
 
 Note: Please take note for tensorflow gpu support, install the cuda driver, cuda toolkit and cudnn
 from  this [link] (https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html) and the
