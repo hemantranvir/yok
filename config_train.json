@@ -9,10 +9,10 @@
         "box_no"  : 5,
         "batch_size" : 2,
         "true_box_buffer" : 50,
-        "train_image_folder" : "../keras_yolo2/data/coco/images/train2014/",
-        "train_annot_folder" : "../keras_yolo2/data/coco/pascal_format/train/",
-        "valid_image_folder" : "../keras_yolo2/data/coco/images/val2014/",
-        "valid_annot_folder" : "../keras_yolo2/data/coco/pascal_format/val/",
+        "train_image_folder" : "./data/coco/images/train2014/",
+        "train_annot_folder" : "./data/coco/pascal_format/train/",
+        "valid_image_folder" : "./data/coco/images/val2014/",
+        "valid_annot_folder" : "./data/coco/pascal_format/val/",
 	"epochs" : 6,
 	"model" : "Yolov2"
     }

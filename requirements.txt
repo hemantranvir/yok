@@ -1,12 +1,13 @@
 Keras
-tensorflow-gpu
+tensorflow
 scipy
 matplotlib
 numpy
 tqdm
 opencv-python
 baker
-json
 cytoolz
 lxml
 pandas
+pillow
+imgaug
